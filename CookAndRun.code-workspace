@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Unity_Game/CookAndRun_0.1/Assets/Sprites"
+		},
+		{
+			"path": "../../Unity_Game/CookAndRun_0.1/Assets/Scenes"
+		},
+		{
+			"path": "../../Unity_Game/CookAndRun_0.1/Assets/Codes"
+		},
+		{
+			"path": "../../Unity_Game/CookAndRun_0.1/Assets/Animations"
+		},
+		{
+			"path": "../../Unity_Game/CookAndRun_0.1/Assets/Settings"
+		}
+	],
+	"settings": {}
+}
