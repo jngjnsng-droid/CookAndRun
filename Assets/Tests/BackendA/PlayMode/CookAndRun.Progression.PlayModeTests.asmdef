@@ -1,0 +1,10 @@
+{
+  "name": "CookAndRun.Progression.PlayModeTests",
+  "rootNamespace": "CookAndRun.Progression.Tests",
+  "references": [
+    "CookAndRun.Progression",
+    "CookAndRun.Progression.Unity"
+  ],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

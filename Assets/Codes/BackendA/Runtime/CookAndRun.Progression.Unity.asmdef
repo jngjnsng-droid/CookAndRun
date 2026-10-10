@@ -1,0 +1,6 @@
+{
+  "name": "CookAndRun.Progression.Unity",
+  "rootNamespace": "CookAndRun.Progression",
+  "references": ["CookAndRun.Progression", "Unity.InputSystem"],
+  "autoReferenced": true
+}

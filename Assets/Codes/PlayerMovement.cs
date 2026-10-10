@@ -1,4 +1,5 @@
 using UnityEngine;
+using CookAndRun.Progression;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -23,6 +24,18 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        var flow = GameFlowController.Instance;
+        if (flow != null && flow.HasRun && !flow.CanAcceptActions)
+        {
+            moveX = 0f;
+            if (rb != null) rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+            if (animator != null)
+            {
+                animator.SetBool("isWalking", false);
+                animator.SetFloat("SpeedY", 0f);
+            }
+            return;
+        }
         // 1. 좌우 입력 받기
         moveX = Input.GetAxisRaw("Horizontal");
 

@@ -1,0 +1,15 @@
+{
+  "name": "CookAndRun.Progression.Tests",
+  "rootNamespace": "CookAndRun.Progression.Tests",
+  "references": ["CookAndRun.Progression"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": ["TestAssemblies"]
+}
